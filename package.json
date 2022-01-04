@@ -1,13 +1,21 @@
 {
   "name": "lambda-websocket-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "How to build a chat using Lambda + WebSocket + API Gateway? (nodejs)",
   "main": "index.js",
   "scripts": {
     "deploy": "lambda-build upload lambda-websocket-server -r us-east-1 -x aws-sdk"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "lambda",
+    "websocket",
+    "chat",
+    "nodejs",
+    "api gateway",
+    "serverless"
+  ],
+  "author": "alex@undefinedapps.com",
+  "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.1048.0",
     "lambda-actions": "*"
