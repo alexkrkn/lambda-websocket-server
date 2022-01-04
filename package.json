@@ -1,0 +1,20 @@
+{
+  "name": "lambda-websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "lambda-build upload lambda-websocket-server -r us-east-1 -x aws-sdk"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1048.0",
+    "lambda-actions": "*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.89",
+    "@types/node": "^17.0.6",
+    "lambda-build": "^1.0.6"
+  }
+}
