@@ -2,11 +2,11 @@
   <img width="600" src="./assets/cover.png" alt="How to build a chat using Lambda + WebSocket + API Gateway? (nodejs)" />
 </a>
 
-The reactjs client code is [here](https://github.com/alexkrkn/lambda-websocket-client)
-
 # Description
 
 Source code for the lambda function from the screencast <a href="https://youtu.be/BcWD-M2PJ-8" target="_blank">How to build a chat using Lambda + WebSocket + API Gateway? (nodejs)</a>
+
+The reactjs client code is [here](https://github.com/alexkrkn/lambda-websocket-client)
 
 # Deploy to AWS
 
